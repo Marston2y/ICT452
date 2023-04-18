@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-18T16:34:44.314Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="O80vzyUn69obqNcWpwmW" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-18T16:37:08.353Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="3nRx_CA83eegajQpvxLA" version="21.1.8" type="github">
   <diagram name="Page-1" id="03018318-947c-dd8e-b7a3-06fadd420f32">
-    <mxGraphModel dx="1408" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1377" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -123,6 +123,9 @@
         </mxCell>
         <mxCell id="677b7b8949515195-49" value="Feature 6" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
           <mxGeometry x="860" y="425" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ISBNCgkVNNiNiO2FPeh9-1" value="&lt;b&gt;&lt;font face=&quot;Garamond&quot; style=&quot;font-size: 40px;&quot;&gt;CNCS SCHOOL&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="70" width="510" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
