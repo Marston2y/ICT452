@@ -2,101 +2,111 @@
 <html>
 <head>
   <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-body {
-  margin: 0;
-}
+    body {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh; 
+    }
 
+    .footer {
+      background-color: #FFA500;
+      padding: 10px;
+      text-align: center;
+      margin-top: auto; 
+    }
 
-.footer {
-  background-color: #f1f1f1;
-  padding: 10px;
-  text-align: center;
-}
-</style>
-<style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #ffffff;
-}
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #ffffff;
+    }
 
-.navbar {
-  text-align: center;
-}
+    .navbar {
+      text-align: center;
+    }
 
-.navbar ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
+    .navbar ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
 
-.navbar ul li {
-  display: inline-block;
-  margin: 0 10px;
-}
+    .navbar ul li {
+      display: inline-block;
+      margin: 0 10px;
+    }
 
-.navbar ul li a {
-  text-decoration: none;
-  font-size: 16px;
-  color: #000;
-}
+    .navbar ul li a {
+      text-decoration: none;
+      font-size: 16px;
+      color: #000;
+    }
 
-.navbar ul li a:hover {
-  color: #ff0000;
-}
+    .navbar ul li a:hover {
+      color: #ff0000;
+    }
 
-li a:hover {
-  background-color: #111;
-}
-     .center {
-  text-align: center;
-  background-color: rgb(241, 241, 241);
-}
+    li a:hover {
+      background-color: #111;
+    }
+
     .center {
-  margin: auto;
-  width: 60%;
-  border: 3px solid #73AD21;
-  padding: 10px;
-}
-    p.groove {border-style: groove;}
-body {
-  color: rgb(0, 0, 0);
-}
+      text-align: center;
+      background-color: rgb(241, 241, 241);
+      margin: auto;
+      width: 60%;
+      border: 3px solid #73AD21;
+      padding: 10px;
+    }
 
-h1 {
-  color: rgb(128, 51, 0);
-}
-#customers {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
+    p.groove {
+      border-style: groove;
+    }
 
-#customers td, #customers th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
+    body {
+      color: rgb(0, 0, 0);
+    }
 
-#customers tr:nth-child(even){background-color: #f2f2f2;}
+    h1 {
+      color: rgb(128, 51, 0);
+    }
 
-#customers tr:hover {background-color: #ddd;}
+    #customers {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
 
-#customers th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #4CAF50;
-  color: white;
-}
-</style>
+    #customers td, #customers th {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+
+    #customers tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    #customers tr:hover {
+      background-color: #ddd;
+    }
+
+    #customers th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #4CAF50;
+      color: white;
+    }
+  </style>
 </head>
 <body>
   <div class="navbar">
@@ -106,52 +116,43 @@ h1 {
       <li><a href="https://marston2y.github.io/ICT452/CSS%20page3.html">page3</a></li>
     </ul>
   </div>
-    <div class="center">
+  <div class="center">
     <h1>Web Design Flowchart</h1>
-    <p class="groove">  It is worth noting that these steps are usually not linear, and the process of website design is an intertwined and iterative process. 
-        <br />At each step, effective communication and collaboration with customers and other team members is required to ensure that the final design of a website meets user needs and business goals.</p>
-        <img src="https://i.postimg.cc/DzjWXbxR/QQ-20230327141308.jpg" width="400px">
-    </div>
-        <table id="customers">
-            <tr>
-                <th>The Values of Web Designer</th>
-                <th>My hobbies</th>
-               
-            </tr>
-            <tr>
-                <td>1. Creativity and Innovation</td>
-                <td>Play basketball</td>
-              
-            </tr>
-            <tr>
-                <td>2.User Center</td>
-                <td>Play computer games</td>
-               
-            </tr>
-            <tr>
-                <td>3. Simplicity and ease of use</td>
-                <td>read a book</td>
-               
-            </tr>
-            <tr>
-                <td>4. Effective communication</td>
-                <td>Delve into new web design knowledge</td>
-              
-            </tr>
-            <tr>
-                <td>5. Resilience</td>
-                <td>Drink coffee</td>
-               
-            </tr>
-            <tr>
-                <td>6. Self motivated and self driven</td>
-                <td>play table tennis</td>
-                
-    
-
-
-</body>
-<footer style="background-color:#FFA500;clear:both;text-align:center;">
-  <p>2220271433@qq.com</p>
+    <p class="groove">It is worth noting that these steps are usually not linear, and the process of website design is an intertwined and iterative process. <br />At each step, effective communication and collaboration with customers and other team members is required to ensure that the final design of a website meets user needs and business goals.</p>
+    <img src="https://i.postimg.cc/DzjWXbxR/QQ-20230327141308.jpg" width="400px">
+  </div>
+  <table id="customers">
+    <tr>
+      <th>The Values of Web Designer</th>
+      <th>My hobbies</th>
+    </tr>
+    <tr>
+      <td>1. Creativity and Innovation</td>
+      <td>Play basketball</td>
+    </tr>
+    <tr>
+      <td>2. User Center</td>
+      <td>Play computer games</td>
+    </tr>
+    <tr>
+      <td>3. Simplicity and ease of use</td>
+      <td>Read a book</td>
+    </tr>
+    <tr>
+      <td>4. Effective communication</td>
+      <td>Delve into new web design knowledge</td>
+    </tr>
+    <tr>
+      <td>5. Resilience</td>
+      <td>Drink coffee</td>
+    </tr>
+    <tr>
+      <td>6. Self-motivated and self-driven</td>
+      <td>Play table tennis</td>
+    </tr>
+  </table>
+  <footer class="footer">
+    <p>Han 2220271433@qq.com</p>
   </footer>
+</body>
 </html>
