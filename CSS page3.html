@@ -25,19 +25,32 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #ffffff;
 }
 
-li {
-  float: center;
-}
-
-li a {
-  display: block;
-  color: white;
+.navbar {
   text-align: center;
-  padding: 14px 16px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.navbar ul li a {
   text-decoration: none;
+  font-size: 16px;
+  color: #000;
+}
+
+.navbar ul li a:hover {
+  color: #ff0000;
 }
 
 li a:hover {
@@ -86,17 +99,18 @@ h1 {
 </style>
 </head>
 <body>
+  <div class="navbar">
     <ul>
-        <li style="float:center"><a href="https://marston2y.github.io/ICT452/CSS%20page1.html">HOME</a></li>
-        <li style="float:center"><a href="https://marston2y.github.io/ICT452/CSS%20page2.html">Page2</a></li>
-      
-      </ul>
+      <li><a href="https://marston2y.github.io/ICT452/CSS%20page1.html">Home</a></li>
+      <li><a href="https://marston2y.github.io/ICT452/CSS%20page2.html">page2</a></li>
+      <li><a href="https://marston2y.github.io/ICT452/CSS%20page3.html">page3</a></li>
+    </ul>
+  </div>
     <div class="center">
     <h1>Web Design Flowchart</h1>
     <p class="groove">  It is worth noting that these steps are usually not linear, and the process of website design is an intertwined and iterative process. 
         <br />At each step, effective communication and collaboration with customers and other team members is required to ensure that the final design of a website meets user needs and business goals.</p>
-        <a href="https://i.postimg.cc/DzjWXbxR/QQ-20230327141308.jpg"><img src="https://t.lsky.pro/i/2023/03/27/6421460a58a17.jpg" alt="QQ截图20230327141308.jpg" title="QQ截图20230327141308.jpg" /></a>
-        <p>You can click on the image to view</p>
+        <img src="https://i.postimg.cc/DzjWXbxR/QQ-20230327141308.jpg" width="400px">
     </div>
         <table id="customers">
             <tr>
@@ -132,13 +146,12 @@ h1 {
             <tr>
                 <td>6. Self motivated and self driven</td>
                 <td>play table tennis</td>
-                <div class="footer">
-                  <p></p>
-                </div>
-  <footer style="background-color:#FFA500;clear:both;text-align:center;">
-  <p>2220271433@qq.com</p>
-  </footer>
+                
+    
 
 
 </body>
+<footer style="background-color:#FFA500;clear:both;text-align:center;">
+  <p>2220271433@qq.com</p>
+  </footer>
 </html>
