@@ -4,80 +4,86 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    * {
-      box-sizing: border-box;
-    }
+  /* 全局样式设置，包括边框框模型 */
+* {
+  box-sizing: border-box;
+}
 
-    body {
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
+/* body 标签样式设置，使用 flex 布局，使内容垂直占满整个视口 */
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* 设置最小高度，确保内容在视口高度不够时也能填充整个屏幕 */
+}
 
-    .footer {
-      background-color: #FFA500;
-      padding: 10px;
-      text-align: center;
-      margin-top: auto; 
-    }
+/* 页脚样式设置，背景颜色为橙色，文本居中，margin-top:auto使其位于页面底部 */
+.footer {
+  background-color: #FFA500;
+  padding: 10px;
+  text-align: center;
+  margin-top: auto;
+}
 
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #cccccc;
-    }
+/* 导航栏样式设置，背景颜色为灰色 */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #cccccc;
+}
 
-    .navbar {
-      text-align: center;
-    }
+/* 导航栏居中设置 */
+.navbar {
+  text-align: center;
+}
 
-    .navbar ul {
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-    }
+/* 导航栏链接样式设置 */
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 
-    .navbar ul li {
-      display: inline-block;
-      margin: 0 10px;
-    }
+.navbar ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
 
-    .navbar ul li a {
-      text-decoration: none;
-      font-size: 16px;
-      color: #000;
-    }
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+}
 
-    .navbar ul li a:hover {
-      color: #ff0000;
-    }
+.navbar ul li a:hover {
+  color: #ff0000;
+}
 
-    li a:hover {
-      background-color: #111;
-    }
+/* 段落样式设置，使用 groove 边框样式 */
+p.groove {
+  border-style: groove;
+}
 
-    p.groove {
-      border-style: groove;
-    }
+/* 渐变背景样式设置 */
+#grad1 {
+  height: 200px;
+  background-color: red; 
+  background-image: linear-gradient(to right, rgb(231, 170, 250), rgb(124, 226, 252));
+}
 
-    #grad1 {
-      height: 200px;
-      background-color: red; 
-      background-image: linear-gradient(to right, rgb(231, 170, 250), rgb(124, 226, 252));
-    }
+/* 内容居中样式设置，背景颜色为白色 */
+.center {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
 
-    .center {
-      text-align: center;
-      background-color: rgb(255, 255, 255);
-    }
-
-    h1 {
-      color: rgb(61, 61, 61);
-      text-align: center;
-    }
+/* 标题样式设置，颜色为深灰色，居中显示 */
+h1 {
+  color: rgb(61, 61, 61);
+  text-align: center;
+}
   </style>
 </head>
 <body>
