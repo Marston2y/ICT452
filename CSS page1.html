@@ -14,7 +14,7 @@ body {
 
 
 .footer {
-  background-color: #f1f1f1;
+  background-color: #cccccc;
   padding: 10px;
   text-align: center;
 }
@@ -24,19 +24,32 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #cccccc;
 }
 
-li {
-  float: center;
-}
-
-li a {
-  display: block;
-  color: rgb(0, 0, 0);
+.navbar {
   text-align: center;
-  padding: 14px 16px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.navbar ul li a {
   text-decoration: none;
+  font-size: 16px;
+  color: #000;
+}
+
+.navbar ul li a:hover {
+  color: #ff0000;
 }
 
 li a:hover {
@@ -51,7 +64,7 @@ p.groove {border-style: groove;}
 
     .center {
   text-align: center;
-  background-color: rgb(241, 241, 241);
+  background-color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -63,11 +76,13 @@ h1 {
 </style>
 </head>
 <body>
+  <div class="navbar">
   <ul>
-  <li style="float:center"><a href="https://marston2y.github.io/ICT452/CSS%20page2.html">Page2</a></li>
-  <li style="float:center"><a href="https://marston2y.github.io/ICT452/CSS%20page3.html">Page3</a></li>
-
-</ul>
+    <li><a href="https://marston2y.github.io/ICT452/CSS%20page1.html">Home</a></li>
+    <li><a href="https://marston2y.github.io/ICT452/CSS%20page2.html">page2</a></li>
+    <li><a href="https://marston2y.github.io/ICT452/CSS%20page3.html">page3</a></li>
+  </ul>
+</div>
         
     <div class="center">
         <div id="grad1">
@@ -86,7 +101,7 @@ h1 {
     
     </style>
     <img src="https://i.postimg.cc/d1Bbg6CF/20230311201602.jpg">
-      <img src="https://i.postimg.cc/PrRkDKjV/v2-9173bf7b29e93ada88b6002955493a75-hd.jpg">
+    <img src="https://i.postimg.cc/PrRkDKjV/v2-9173bf7b29e93ada88b6002955493a75-hd.jpg">
   <!-- Code in picture setting -->
   
     
@@ -115,10 +130,9 @@ h1 {
             <br />9.Sincerity and integrity: treat customers and partners sincerely, and maintain integrity and high quality.
             <br />10. Social responsibility: Pay attention to social and environmental responsibilities and advocate sustainable development.</p>
         </div>
-       <footer style="background-color:#FFA500;clear:both;text-align:center;">
-  <p>2220271433@qq.com</p>
-  </footer>
-          
+        <footer style="background-color:#FFA500;clear:both;text-align:center;">
+          <p>2220271433@qq.com</p>
+          </footer>
            
 
 </body>
