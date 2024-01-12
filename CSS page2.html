@@ -25,19 +25,32 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #ffffff;
 }
 
-li {
-  float:center ;
-}
-
-li a {
-  display: block;
-  color: white;
+.navbar {
   text-align: center;
-  padding: 14px 16px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.navbar ul li a {
   text-decoration: none;
+  font-size: 16px;
+  color: #000;
+}
+
+.navbar ul li a:hover {
+  color: #ff0000;
 }
 
 li a:hover {
@@ -62,7 +75,7 @@ body {
 }
 
 h1 {
-  color: rgb(48, 47, 48);
+  color: rgb(59, 59, 59);
   text-align: center;
 }
 
@@ -73,11 +86,13 @@ p {
 </style>
 </head>
 <body>
+  <div class="navbar">
     <ul>
-        <li style="float:center"><a href="https://marston2y.github.io/ICT452/CSS%20page1.html">HOME</a></li>
-        <li style="float:center"><a href="https://marston2y.github.io/ICT452/CSS%20page3.html">Page3</a></li>
-      
-      </ul>
+      <li><a href="https://marston2y.github.io/ICT452/CSS%20page1.html">Home</a></li>
+      <li><a href="https://marston2y.github.io/ICT452/CSS%20page2.html">page2</a></li>
+      <li><a href="https://marston2y.github.io/ICT452/CSS%20page3.html">page3</a></li>
+    </ul>
+  </div>
   <h1 style="font-size:300%;">Web Design Template</h1> <!-- title -->
   
 <center>
